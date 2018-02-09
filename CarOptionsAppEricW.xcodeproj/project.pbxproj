@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA717FCC202DE1C10070E77A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA717FCB202DE1C10070E77A /* AppDelegate.swift */; };
+		FA717FCE202DE1C10070E77A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA717FCD202DE1C10070E77A /* ViewController.swift */; };
+		FA717FD1202DE1C10070E77A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA717FCF202DE1C10070E77A /* Main.storyboard */; };
+		FA717FD4202DE1C10070E77A /* CarOptionsAppEricW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA717FD2202DE1C10070E77A /* CarOptionsAppEricW.xcdatamodeld */; };
+		FA717FD6202DE1C10070E77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA717FD5202DE1C10070E77A /* Assets.xcassets */; };
+		FA717FD9202DE1C10070E77A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA717FD7202DE1C10070E77A /* LaunchScreen.storyboard */; };
+		FA717FE4202DE1C10070E77A /* CarOptionsAppEricWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA717FE3202DE1C10070E77A /* CarOptionsAppEricWTests.swift */; };
+		FA717FEF202DE1C10070E77A /* CarOptionsAppEricWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA717FEE202DE1C10070E77A /* CarOptionsAppEricWUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA717FE0202DE1C10070E77A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA717FC0202DE1C10070E77A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA717FC7202DE1C10070E77A;
+			remoteInfo = CarOptionsAppEricW;
+		};
+		FA717FEB202DE1C10070E77A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA717FC0202DE1C10070E77A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA717FC7202DE1C10070E77A;
+			remoteInfo = CarOptionsAppEricW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA717FC8202DE1C10070E77A /* CarOptionsAppEricW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarOptionsAppEricW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA717FCB202DE1C10070E77A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA717FCD202DE1C10070E77A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA717FD0202DE1C10070E77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA717FD3202DE1C10070E77A /* CarOptionsAppEricW.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarOptionsAppEricW.xcdatamodel; sourceTree = "<group>"; };
+		FA717FD5202DE1C10070E77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA717FD8202DE1C10070E77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA717FDA202DE1C10070E77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA717FDF202DE1C10070E77A /* CarOptionsAppEricWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarOptionsAppEricWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA717FE3202DE1C10070E77A /* CarOptionsAppEricWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarOptionsAppEricWTests.swift; sourceTree = "<group>"; };
+		FA717FE5202DE1C10070E77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA717FEA202DE1C10070E77A /* CarOptionsAppEricWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarOptionsAppEricWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA717FEE202DE1C10070E77A /* CarOptionsAppEricWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarOptionsAppEricWUITests.swift; sourceTree = "<group>"; };
+		FA717FF0202DE1C10070E77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA717FC5202DE1C10070E77A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA717FDC202DE1C10070E77A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA717FE7202DE1C10070E77A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA717FBF202DE1C10070E77A = {
+			isa = PBXGroup;
+			children = (
+				FA717FCA202DE1C10070E77A /* CarOptionsAppEricW */,
+				FA717FE2202DE1C10070E77A /* CarOptionsAppEricWTests */,
+				FA717FED202DE1C10070E77A /* CarOptionsAppEricWUITests */,
+				FA717FC9202DE1C10070E77A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA717FC9202DE1C10070E77A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA717FC8202DE1C10070E77A /* CarOptionsAppEricW.app */,
+				FA717FDF202DE1C10070E77A /* CarOptionsAppEricWTests.xctest */,
+				FA717FEA202DE1C10070E77A /* CarOptionsAppEricWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA717FCA202DE1C10070E77A /* CarOptionsAppEricW */ = {
+			isa = PBXGroup;
+			children = (
+				FA717FCB202DE1C10070E77A /* AppDelegate.swift */,
+				FA717FCD202DE1C10070E77A /* ViewController.swift */,
+				FA717FCF202DE1C10070E77A /* Main.storyboard */,
+				FA717FD5202DE1C10070E77A /* Assets.xcassets */,
+				FA717FD7202DE1C10070E77A /* LaunchScreen.storyboard */,
+				FA717FDA202DE1C10070E77A /* Info.plist */,
+				FA717FD2202DE1C10070E77A /* CarOptionsAppEricW.xcdatamodeld */,
+			);
+			path = CarOptionsAppEricW;
+			sourceTree = "<group>";
+		};
+		FA717FE2202DE1C10070E77A /* CarOptionsAppEricWTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA717FE3202DE1C10070E77A /* CarOptionsAppEricWTests.swift */,
+				FA717FE5202DE1C10070E77A /* Info.plist */,
+			);
+			path = CarOptionsAppEricWTests;
+			sourceTree = "<group>";
+		};
+		FA717FED202DE1C10070E77A /* CarOptionsAppEricWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA717FEE202DE1C10070E77A /* CarOptionsAppEricWUITests.swift */,
+				FA717FF0202DE1C10070E77A /* Info.plist */,
+			);
+			path = CarOptionsAppEricWUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA717FC7202DE1C10070E77A /* CarOptionsAppEricW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA717FF3202DE1C10070E77A /* Build configuration list for PBXNativeTarget "CarOptionsAppEricW" */;
+			buildPhases = (
+				FA717FC4202DE1C10070E77A /* Sources */,
+				FA717FC5202DE1C10070E77A /* Frameworks */,
+				FA717FC6202DE1C10070E77A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarOptionsAppEricW;
+			productName = CarOptionsAppEricW;
+			productReference = FA717FC8202DE1C10070E77A /* CarOptionsAppEricW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA717FDE202DE1C10070E77A /* CarOptionsAppEricWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA717FF6202DE1C10070E77A /* Build configuration list for PBXNativeTarget "CarOptionsAppEricWTests" */;
+			buildPhases = (
+				FA717FDB202DE1C10070E77A /* Sources */,
+				FA717FDC202DE1C10070E77A /* Frameworks */,
+				FA717FDD202DE1C10070E77A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA717FE1202DE1C10070E77A /* PBXTargetDependency */,
+			);
+			name = CarOptionsAppEricWTests;
+			productName = CarOptionsAppEricWTests;
+			productReference = FA717FDF202DE1C10070E77A /* CarOptionsAppEricWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA717FE9202DE1C10070E77A /* CarOptionsAppEricWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA717FF9202DE1C10070E77A /* Build configuration list for PBXNativeTarget "CarOptionsAppEricWUITests" */;
+			buildPhases = (
+				FA717FE6202DE1C10070E77A /* Sources */,
+				FA717FE7202DE1C10070E77A /* Frameworks */,
+				FA717FE8202DE1C10070E77A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA717FEC202DE1C10070E77A /* PBXTargetDependency */,
+			);
+			name = CarOptionsAppEricWUITests;
+			productName = CarOptionsAppEricWUITests;
+			productReference = FA717FEA202DE1C10070E77A /* CarOptionsAppEricWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA717FC0202DE1C10070E77A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Eric Witowski";
+				TargetAttributes = {
+					FA717FC7202DE1C10070E77A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FA717FDE202DE1C10070E77A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA717FC7202DE1C10070E77A;
+					};
+					FA717FE9202DE1C10070E77A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA717FC7202DE1C10070E77A;
+					};
+				};
+			};
+			buildConfigurationList = FA717FC3202DE1C10070E77A /* Build configuration list for PBXProject "CarOptionsAppEricW" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA717FBF202DE1C10070E77A;
+			productRefGroup = FA717FC9202DE1C10070E77A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA717FC7202DE1C10070E77A /* CarOptionsAppEricW */,
+				FA717FDE202DE1C10070E77A /* CarOptionsAppEricWTests */,
+				FA717FE9202DE1C10070E77A /* CarOptionsAppEricWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA717FC6202DE1C10070E77A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA717FD9202DE1C10070E77A /* LaunchScreen.storyboard in Resources */,
+				FA717FD6202DE1C10070E77A /* Assets.xcassets in Resources */,
+				FA717FD1202DE1C10070E77A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA717FDD202DE1C10070E77A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA717FE8202DE1C10070E77A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA717FC4202DE1C10070E77A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA717FCE202DE1C10070E77A /* ViewController.swift in Sources */,
+				FA717FCC202DE1C10070E77A /* AppDelegate.swift in Sources */,
+				FA717FD4202DE1C10070E77A /* CarOptionsAppEricW.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA717FDB202DE1C10070E77A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA717FE4202DE1C10070E77A /* CarOptionsAppEricWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA717FE6202DE1C10070E77A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA717FEF202DE1C10070E77A /* CarOptionsAppEricWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA717FE1202DE1C10070E77A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA717FC7202DE1C10070E77A /* CarOptionsAppEricW */;
+			targetProxy = FA717FE0202DE1C10070E77A /* PBXContainerItemProxy */;
+		};
+		FA717FEC202DE1C10070E77A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA717FC7202DE1C10070E77A /* CarOptionsAppEricW */;
+			targetProxy = FA717FEB202DE1C10070E77A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA717FCF202DE1C10070E77A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA717FD0202DE1C10070E77A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA717FD7202DE1C10070E77A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA717FD8202DE1C10070E77A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA717FF1202DE1C10070E77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA717FF2202DE1C10070E77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA717FF4202DE1C10070E77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = CarOptionsAppEricW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.CarOptionsAppEricW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA717FF5202DE1C10070E77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = CarOptionsAppEricW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.CarOptionsAppEricW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA717FF7202DE1C10070E77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = CarOptionsAppEricWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.CarOptionsAppEricWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarOptionsAppEricW.app/CarOptionsAppEricW";
+			};
+			name = Debug;
+		};
+		FA717FF8202DE1C10070E77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = CarOptionsAppEricWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.CarOptionsAppEricWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarOptionsAppEricW.app/CarOptionsAppEricW";
+			};
+			name = Release;
+		};
+		FA717FFA202DE1C10070E77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = CarOptionsAppEricWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.CarOptionsAppEricWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarOptionsAppEricW;
+			};
+			name = Debug;
+		};
+		FA717FFB202DE1C10070E77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = CarOptionsAppEricWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.CarOptionsAppEricWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarOptionsAppEricW;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA717FC3202DE1C10070E77A /* Build configuration list for PBXProject "CarOptionsAppEricW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA717FF1202DE1C10070E77A /* Debug */,
+				FA717FF2202DE1C10070E77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA717FF3202DE1C10070E77A /* Build configuration list for PBXNativeTarget "CarOptionsAppEricW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA717FF4202DE1C10070E77A /* Debug */,
+				FA717FF5202DE1C10070E77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA717FF6202DE1C10070E77A /* Build configuration list for PBXNativeTarget "CarOptionsAppEricWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA717FF7202DE1C10070E77A /* Debug */,
+				FA717FF8202DE1C10070E77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA717FF9202DE1C10070E77A /* Build configuration list for PBXNativeTarget "CarOptionsAppEricWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA717FFA202DE1C10070E77A /* Debug */,
+				FA717FFB202DE1C10070E77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA717FD2202DE1C10070E77A /* CarOptionsAppEricW.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA717FD3202DE1C10070E77A /* CarOptionsAppEricW.xcdatamodel */,
+			);
+			currentVersion = FA717FD3202DE1C10070E77A /* CarOptionsAppEricW.xcdatamodel */;
+			path = CarOptionsAppEricW.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA717FC0202DE1C10070E77A /* Project object */;
+}
