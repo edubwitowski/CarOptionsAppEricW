@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2A486A2030B8C60067C119 /* toy_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48692030B8C50067C119 /* toy_2.jpg */; };
+		FA2A486B2030B8C60067C119 /* toy_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48692030B8C50067C119 /* toy_2.jpg */; };
+		FA2A486C2030B8C60067C119 /* toy_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48692030B8C50067C119 /* toy_2.jpg */; };
+		FA2A486E2030B8CD0067C119 /* toy_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A486D2030B8CD0067C119 /* toy_1.jpg */; };
+		FA2A486F2030B8CD0067C119 /* toy_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A486D2030B8CD0067C119 /* toy_1.jpg */; };
+		FA2A48702030B8CD0067C119 /* toy_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A486D2030B8CD0067C119 /* toy_1.jpg */; };
+		FA2A48722030B8DF0067C119 /* toy_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48712030B8DF0067C119 /* toy_.jpg */; };
+		FA2A48732030B8DF0067C119 /* toy_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48712030B8DF0067C119 /* toy_.jpg */; };
+		FA2A48742030B8DF0067C119 /* toy_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48712030B8DF0067C119 /* toy_.jpg */; };
+		FA2A48762030B8E40067C119 /* toy_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48752030B8E40067C119 /* toy_3.jpg */; };
+		FA2A48772030B8E40067C119 /* toy_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48752030B8E40067C119 /* toy_3.jpg */; };
+		FA2A48782030B8E40067C119 /* toy_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48752030B8E40067C119 /* toy_3.jpg */; };
+		FA2A487A2030B8EA0067C119 /* toy_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48792030B8EA0067C119 /* toy_4.jpg */; };
+		FA2A487B2030B8EA0067C119 /* toy_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48792030B8EA0067C119 /* toy_4.jpg */; };
+		FA2A487C2030B8EA0067C119 /* toy_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48792030B8EA0067C119 /* toy_4.jpg */; };
+		FA2A48822030B9350067C119 /* toy_7.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48812030B9340067C119 /* toy_7.png */; };
+		FA2A48832030B9350067C119 /* toy_7.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48812030B9340067C119 /* toy_7.png */; };
+		FA2A48842030B9350067C119 /* toy_7.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48812030B9340067C119 /* toy_7.png */; };
+		FA2A48862030B9390067C119 /* toy_8.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48852030B9390067C119 /* toy_8.png */; };
+		FA2A48872030B9390067C119 /* toy_8.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48852030B9390067C119 /* toy_8.png */; };
+		FA2A48882030B9390067C119 /* toy_8.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2A48852030B9390067C119 /* toy_8.png */; };
 		FA717FCC202DE1C10070E77A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA717FCB202DE1C10070E77A /* AppDelegate.swift */; };
 		FA717FCE202DE1C10070E77A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA717FCD202DE1C10070E77A /* ViewController.swift */; };
 		FA717FD1202DE1C10070E77A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA717FCF202DE1C10070E77A /* Main.storyboard */; };
@@ -35,6 +56,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA2A48692030B8C50067C119 /* toy_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy_2.jpg; sourceTree = "<group>"; };
+		FA2A486D2030B8CD0067C119 /* toy_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy_1.jpg; sourceTree = "<group>"; };
+		FA2A48712030B8DF0067C119 /* toy_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy_.jpg; sourceTree = "<group>"; };
+		FA2A48752030B8E40067C119 /* toy_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy_3.jpg; sourceTree = "<group>"; };
+		FA2A48792030B8EA0067C119 /* toy_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy_4.jpg; sourceTree = "<group>"; };
+		FA2A48812030B9340067C119 /* toy_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toy_7.png; sourceTree = "<group>"; };
+		FA2A48852030B9390067C119 /* toy_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toy_8.png; sourceTree = "<group>"; };
 		FA717FC8202DE1C10070E77A /* CarOptionsAppEricW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarOptionsAppEricW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA717FCB202DE1C10070E77A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA717FCD202DE1C10070E77A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +111,13 @@
 				FA717FE2202DE1C10070E77A /* CarOptionsAppEricWTests */,
 				FA717FED202DE1C10070E77A /* CarOptionsAppEricWUITests */,
 				FA717FC9202DE1C10070E77A /* Products */,
+				FA2A48692030B8C50067C119 /* toy_2.jpg */,
+				FA2A486D2030B8CD0067C119 /* toy_1.jpg */,
+				FA2A48712030B8DF0067C119 /* toy_.jpg */,
+				FA2A48752030B8E40067C119 /* toy_3.jpg */,
+				FA2A48792030B8EA0067C119 /* toy_4.jpg */,
+				FA2A48812030B9340067C119 /* toy_7.png */,
+				FA2A48852030B9390067C119 /* toy_8.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,8 +271,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA717FD9202DE1C10070E77A /* LaunchScreen.storyboard in Resources */,
+				FA2A486A2030B8C60067C119 /* toy_2.jpg in Resources */,
 				FA717FD6202DE1C10070E77A /* Assets.xcassets in Resources */,
+				FA2A486E2030B8CD0067C119 /* toy_1.jpg in Resources */,
+				FA2A48722030B8DF0067C119 /* toy_.jpg in Resources */,
+				FA2A48822030B9350067C119 /* toy_7.png in Resources */,
 				FA717FD1202DE1C10070E77A /* Main.storyboard in Resources */,
+				FA2A48762030B8E40067C119 /* toy_3.jpg in Resources */,
+				FA2A48862030B9390067C119 /* toy_8.png in Resources */,
+				FA2A487A2030B8EA0067C119 /* toy_4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +287,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2A486F2030B8CD0067C119 /* toy_1.jpg in Resources */,
+				FA2A48832030B9350067C119 /* toy_7.png in Resources */,
+				FA2A48732030B8DF0067C119 /* toy_.jpg in Resources */,
+				FA2A487B2030B8EA0067C119 /* toy_4.jpg in Resources */,
+				FA2A48772030B8E40067C119 /* toy_3.jpg in Resources */,
+				FA2A486B2030B8C60067C119 /* toy_2.jpg in Resources */,
+				FA2A48872030B9390067C119 /* toy_8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +301,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2A48702030B8CD0067C119 /* toy_1.jpg in Resources */,
+				FA2A48842030B9350067C119 /* toy_7.png in Resources */,
+				FA2A48742030B8DF0067C119 /* toy_.jpg in Resources */,
+				FA2A487C2030B8EA0067C119 /* toy_4.jpg in Resources */,
+				FA2A48782030B8E40067C119 /* toy_3.jpg in Resources */,
+				FA2A486C2030B8C60067C119 /* toy_2.jpg in Resources */,
+				FA2A48882030B9390067C119 /* toy_8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +487,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NX7C2QWX95;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CarOptionsAppEricW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.CarOptionsAppEricW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,8 +503,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NX7C2QWX95;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CarOptionsAppEricW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.CarOptionsAppEricW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
